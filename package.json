@@ -1,0 +1,25 @@
+ {
+  "name": "nutjar",
+  "version": "0.3.4",
+  "description": "Squirrel update handling server for node to simplify things",
+  "main": "index.js",
+  "scripts": {
+    "start": "squirrel-server --port 8080 --releases ./releases.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VogaSoftware/stackdesk-nutjar.git"
+  },
+  "keywords": [
+    "update"
+  ],
+  "author": "Graham Dianaty",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VogaSoftware/stackdesk-nutjar/issues"
+  },
+  "homepage": "https://github.com/VogaSoftware/stackdesk-nutjar#readme",
+  "dependencies": {
+    "squirrel-server": "0.0.1"
+  }
+}
